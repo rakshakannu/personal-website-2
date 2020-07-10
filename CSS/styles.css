@@ -1,46 +1,67 @@
-
-body{
+body {
   margin: 0;
   text-align: center;
-  font-family: "Merriweather",sans-serif;
+  font-family: "Merriweather", sans-serif;
 }
-h1{
+h1 {
   font-size: 5rem;
   margin-top: 0;
   font-family: Sacramento;
   padding-top: 50px;
 }
-h2{
-font-family: Montserrat;
-font-size: 2rem;
+h2 {
+  font-family: Montserrat;
+  font-size: 2rem;
 }
-h3{
+h3 {
   font-family: Montserrat;
 }
-.top-container{
-  background-color: #F6F6F6;
+.top-container {
+  background-color: #f6f6f6;
   padding: 20px;
 }
-.middle-container{
-background-color: #B9E6D3;
+.middle-container {
+  background-color: #b9e6d3;
 }
-.bottom-container{
-background-color:  #F6F6F6;
+.bottom-container {
+  background-color: #f6f6f6;
 }
-img{
+img {
   width: 300px;
   height: 300px;
   text-align-last: center;
 }
-.i{
-  width: 100px;
+.i {
   height: 100px;
+  width: 100px;
 }
-a{
+a {
   font-size: 1.5rem;
   font-family: serif;
 }
-hr{
+hr {
   margin-top: 0;
   margin-bottom: 0;
+}
+li {
+  list-style: none;
+}
+
+.social-icons > li {
+  padding: 5px;
+}
+
+.social-icons > li > a {
+  font-size: 2rem;
+}
+
+.github {
+  color: black;
+}
+.linkedin {
+  color: #0e76a8;
+}
+
+.facebook {
+  color: #3b5998;
 }
